@@ -1,6 +1,6 @@
 # License Status: The Value of Advanced Traveler Information Systems for Route Choice
 
-Generated: 2026-05-20 15:32:54 AEST
+Generated: 2026-05-21 06:40:20 AEST
 
 Recorded license/access note from the verified audit row: Publisher terms apply.
 
