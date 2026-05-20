@@ -1,0 +1,833 @@
+olevba 0.60.2 on Python 3.13.5 - http://decalage.info/python/oletools
+===============================================================================
+FILE: /Users/dlev2617/Documents/Code/Agents/github-packages/READY-TO-UPLOAD/PUBLIC/paper-2003-03-the-value-of-advanced-traveler-information-systems-for-route-choice/code/original/Qi2.xls
+Type: OLE
+-------------------------------------------------------------------------------
+VBA MACRO Module1.bas 
+in file: /Users/dlev2617/Documents/Code/Agents/github-packages/READY-TO-UPLOAD/PUBLIC/paper-2003-03-the-value-of-advanced-traveler-information-systems-for-route-choice/code/original/Qi2.xls - OLE stream: '_VBA_PROJECT_CUR/VBA/Module1'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Sub Macro1()
+Attribute Macro1.VB_Description = "Macro recorded 8/20/98 by David Levinson"
+Attribute Macro1.VB_ProcData.VB_Invoke_Func = "m\n14"
+'
+' Macro1 Macro
+' Macro recorded 8/20/98 by David Levinson
+'
+
+'
+    Calculate
+    Calculate
+    Calculate
+    Calculate
+    Calculate
+
+    Calculate
+    Calculate
+    Calculate
+    Calculate
+    Calculate
+    
+    Calculate
+    Calculate
+    Calculate
+    Calculate
+    Calculate
+
+    Calculate
+    Calculate
+    Calculate
+    Calculate
+    Calculate
+    
+    Calculate
+    Calculate
+    Calculate
+    Calculate
+    Calculate
+
+    Calculate
+    Calculate
+    Calculate
+    Calculate
+    Calculate
+    
+End Sub
+-------------------------------------------------------------------------------
+VBA MACRO ThisWorkbook.cls 
+in file: /Users/dlev2617/Documents/Code/Agents/github-packages/READY-TO-UPLOAD/PUBLIC/paper-2003-03-the-value-of-advanced-traveler-information-systems-for-route-choice/code/original/Qi2.xls - OLE stream: '_VBA_PROJECT_CUR/VBA/ThisWorkbook'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Sheet1.cls 
+in file: /Users/dlev2617/Documents/Code/Agents/github-packages/READY-TO-UPLOAD/PUBLIC/paper-2003-03-the-value-of-advanced-traveler-information-systems-for-route-choice/code/original/Qi2.xls - OLE stream: '_VBA_PROJECT_CUR/VBA/Sheet1'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Sheet11.cls 
+in file: /Users/dlev2617/Documents/Code/Agents/github-packages/READY-TO-UPLOAD/PUBLIC/paper-2003-03-the-value-of-advanced-traveler-information-systems-for-route-choice/code/original/Qi2.xls - OLE stream: '_VBA_PROJECT_CUR/VBA/Sheet11'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Module2.bas 
+in file: /Users/dlev2617/Documents/Code/Agents/github-packages/READY-TO-UPLOAD/PUBLIC/paper-2003-03-the-value-of-advanced-traveler-information-systems-for-route-choice/code/original/Qi2.xls - OLE stream: '_VBA_PROJECT_CUR/VBA/Module2'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO UserForm1.frm 
+in file: /Users/dlev2617/Documents/Code/Agents/github-packages/READY-TO-UPLOAD/PUBLIC/paper-2003-03-the-value-of-advanced-traveler-information-systems-for-route-choice/code/original/Qi2.xls - OLE stream: '_VBA_PROJECT_CUR/VBA/UserForm1'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Sheet5.cls 
+in file: /Users/dlev2617/Documents/Code/Agents/github-packages/READY-TO-UPLOAD/PUBLIC/paper-2003-03-the-value-of-advanced-traveler-information-systems-for-route-choice/code/original/Qi2.xls - OLE stream: '_VBA_PROJECT_CUR/VBA/Sheet5'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Module3.bas 
+in file: /Users/dlev2617/Documents/Code/Agents/github-packages/READY-TO-UPLOAD/PUBLIC/paper-2003-03-the-value-of-advanced-traveler-information-systems-for-route-choice/code/original/Qi2.xls - OLE stream: '_VBA_PROJECT_CUR/VBA/Module3'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Sub Copier()
+Attribute Copier.VB_Description = "Macro recorded 2/10/99 by David Levinson"
+Attribute Copier.VB_ProcData.VB_Invoke_Func = " \n14"
+'
+' Copier Macro
+' Macro recorded 2/10/99 by David Levinson
+'
+
+'
+    Sheets("QUEUE").Select
+    Range("D2:D8").Select
+    Selection.Copy
+    Sheets("RESULTS").Select
+    Range("A4:G4").Select
+    Selection.PasteSpecial Paste:=xlValues, Operation:=xlNone, SkipBlanks:= _
+        False, Transpose:=True
+    Sheets("QUEUE").Select
+    Range("G1033:J1033").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets("RESULTS").Select
+    Range("H4").Select
+    Selection.PasteSpecial Paste:=xlValues, Operation:=xlNone, SkipBlanks:= _
+        False, Transpose:=False
+    Sheets("QUEUE").Select
+    Range("AF1033:AI1033").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets("RESULTS").Select
+    Range("L4").Select
+    Selection.PasteSpecial Paste:=xlValues, Operation:=xlNone, SkipBlanks:= _
+        False, Transpose:=False
+    Sheets("QUEUE").Select
+    Range("AF1032:AI1032").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets("RESULTS").Select
+    Range("P4").Select
+    Selection.PasteSpecial Paste:=xlValues, Operation:=xlNone, SkipBlanks:= _
+        False, Transpose:=False
+    Rows("4:4").Select
+    Selection.Insert Shift:=xlDown
+End Sub
+Sub Master100()
+Attribute Master100.VB_Description = "Macro recorded 2/10/99 by David Levinson"
+Attribute Master100.VB_ProcData.VB_Invoke_Func = " \n14"
+'
+' Master Macro
+' Macro recorded 2/10/99 by David Levinson
+'
+'
+    Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "1"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "0"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+    Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "1"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "0.17"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+    Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "1"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "0.33"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+    Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "1"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "0.5"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+     Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "1"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "0.67"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+    Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "1"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "0.83"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+    Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "1"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "1"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+End Sub
+
+Sub Master050()
+'
+' Master Macro
+' Macro recorded 2/10/99 by David Levinson
+'
+'
+    Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "0.5"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "0"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+    Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "0.5"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "0.17"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+    Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "0.5"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "0.33"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+    Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "0.5"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "0.5"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+     Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "0.5"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "0.67"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+    Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "0.5"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "0.83"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+    Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "0.5"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "1"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+End Sub
+
+Sub Master105()
+'
+' Master Macro
+' Macro recorded 2/10/99 by David Levinson
+'
+'
+    Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "1.05"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "0"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+    Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "1.05"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "0.17"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+    Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "1.05"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "0.33"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+    Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "1.05"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "0.5"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+     Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "1.05"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "0.67"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+    Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "1.05"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "0.83"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+    Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "1.05"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "1"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+End Sub
+
+
+Sub Master067()
+'
+' Master Macro
+' Macro recorded 2/10/99 by David Levinson
+'
+'
+    Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "0.67"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "0"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+    Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "0.67"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "0.17"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+    Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "0.67"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "0.33"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+    Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "0.67"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "0.5"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+     Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "0.67"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "0.67"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+    Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "0.67"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "0.83"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+    Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "0.67"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "1"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+End Sub
+
+Sub Master095()
+'
+' Master Macro
+' Macro recorded 2/10/99 by David Levinson
+'
+'
+    Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "0.95"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "0"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+    Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "0.95"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "0.17"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+    Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "0.95"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "0.33"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+    Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "0.95"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "0.5"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+     Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "0.95"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "0.67"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+    Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "0.95"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "0.83"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+    Sheets("QUEUE").Select
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Calculate
+' Vehicle Arrival Rate
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "0.95"
+' Percent Informed
+    Range("D8").Select
+    ActiveCell.FormulaR1C1 = "1"
+' Reset
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "0"
+    Application.Run "Qi2.xls!Macro1"
+    Application.Run "Qi2.xls!Copier"
+End Sub
+
+Sub CrashMaster()
+
+'
+' Master IncidentMacro
+' Macro recorded 3/17/99 by David Levinson
+'
+'
+    Sheets("QUEUE").Select
+    Range("D3").Select
+    ActiveCell.FormulaR1C1 = "2"
+    Application.Run "Qi2.xls!Master067"
+
+    Sheets("QUEUE").Select
+    Range("D3").Select
+    ActiveCell.FormulaR1C1 = "2.2"
+    Application.Run "Qi2.xls!Master067"
+
+    Sheets("QUEUE").Select
+    Range("D3").Select
+    ActiveCell.FormulaR1C1 = "2.4"
+    Application.Run "Qi2.xls!Master067"
+
+    Sheets("QUEUE").Select
+    Range("D3").Select
+    ActiveCell.FormulaR1C1 = "2.6"
+    Application.Run "Qi2.xls!Master067"
+
+    Sheets("QUEUE").Select
+    Range("D3").Select
+    ActiveCell.FormulaR1C1 = "2.8"
+    Application.Run "Qi2.xls!Master067"
+
+    Sheets("QUEUE").Select
+    Range("D3").Select
+    ActiveCell.FormulaR1C1 = "3"
+    Application.Run "Qi2.xls!Master067"
+
+    Sheets("QUEUE").Select
+    Range("D3").Select
+    ActiveCell.FormulaR1C1 = "4"
+    Application.Run "Qi2.xls!Master067"
+
+    Sheets("QUEUE").Select
+    Range("D3").Select
+    ActiveCell.FormulaR1C1 = "6"
+    Application.Run "Qi2.xls!Master067"
+
+    Sheets("QUEUE").Select
+    Range("D3").Select
+    ActiveCell.FormulaR1C1 = "8"
+    Application.Run "Qi2.xls!Master067"
+
+    Sheets("QUEUE").Select
+    Range("D3").Select
+    ActiveCell.FormulaR1C1 = "10"
+    Application.Run "Qi2.xls!Master067"
+
+    Sheets("QUEUE").Select
+    Range("D3").Select
+    ActiveCell.FormulaR1C1 = "15"
+    Application.Run "Qi2.xls!Master067"
+
+    Sheets("QUEUE").Select
+    Range("D3").Select
+    ActiveCell.FormulaR1C1 = "20"
+    Application.Run "Qi2.xls!Master067"
+
+End Sub
+
+
+Sub UberMaster()
+
+'
+' Master Macro
+' Macro recorded 2/10/99 by David Levinson
+'
+'
+    Application.Run "Qi2.xls!Master050"
+    Application.Run "Qi2.xls!Master067"
+    Application.Run "Qi2.xls!Master095"
+    Application.Run "Qi2.xls!Master100"
+    Application.Run "Qi2.xls!Master105"
+End Sub
+-------------------------------------------------------------------------------
+VBA MACRO xlm_macro.txt 
+in file: xlm_macro - OLE stream: 'xlm_macro'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+' 0085     11 BOUNDSHEET : Sheet Information - worksheet or dialog sheet, visible - AT
+' 0085     11 BOUNDSHEET : Sheet Information - worksheet or dialog sheet, visible - AT
+' 0085     11 BOUNDSHEET : Sheet Information - worksheet or dialog sheet, visible - AT
+' 0085     11 BOUNDSHEET : Sheet Information - worksheet or dialog sheet, visible - T%
+' 0085     11 BOUNDSHEET : Sheet Information - worksheet or dialog sheet, visible - T%
+' 0085     11 BOUNDSHEET : Sheet Information - worksheet or dialog sheet, visible - SD
+' 0085     11 BOUNDSHEET : Sheet Information - worksheet or dialog sheet, visible - SD
+' 0085     15 BOUNDSHEET : Sheet Information - worksheet or dialog sheet, visible - Summar
+' 0085     19 BOUNDSHEET : Sheet Information - worksheet or dialog sheet, visible - Summary-Re
+' 0085     15 BOUNDSHEET : Sheet Information - worksheet or dialog sheet, visible - RESULT
+' 0085     13 BOUNDSHEET : Sheet Information - worksheet or dialog sheet, visible - QUEU
+

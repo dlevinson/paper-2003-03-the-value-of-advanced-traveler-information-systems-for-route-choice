@@ -1,0 +1,8 @@
+package_path,source_path,role
+code/original/Qi2.xls,/Users/dlev2617/Documents/Data/~Nexus_Data/~PATH/PATH-ATIS/Qi2.xls,Paper-specific legacy Excel/VBA simulation workbook for incident/service-rate scenarios; original filename retained because macros call Qi2.xls by name.
+code/original/Qr2.xls,/Users/dlev2617/Documents/Data/~Nexus_Data/~PATH/PATH-ATIS/Qr2.xls,Paper-specific legacy Excel/VBA simulation workbook for recurrent/arrival-rate scenarios; original filename retained because macros call Qr2.xls by name.
+code/modernized/Qi2.xlsx,derived from code/original/Qi2.xls using LibreOffice headless conversion,Modern spreadsheet copy for inspection; original .xls remains authoritative for macro execution.
+code/modernized/Qr2.xlsx,derived from code/original/Qr2.xls using LibreOffice headless conversion,Modern spreadsheet copy for inspection; original .xls remains authoritative for macro execution.
+code/extracted_vba/Qi2.vba.txt,extracted from code/original/Qi2.xls using oletools olevba,Text extraction of embedded VBA for review and archival readability.
+code/extracted_vba/Qr2.vba.txt,extracted from code/original/Qr2.xls using oletools olevba,Text extraction of embedded VBA for review and archival readability.
+documentation/SHARED_SOURCE_POINTER.md,/Users/dlev2617/Documents/Code/Agents/github-packages/_shared_sources/probe-atis-spreadsheet-model,Pointer to shared Qp2/Qpi2/ServiceTime workbook model files used by paper-2002-01 and related ATIS/probe work; not duplicated here.
