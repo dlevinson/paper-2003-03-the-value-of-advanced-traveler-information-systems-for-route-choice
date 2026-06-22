@@ -1,5 +1,9 @@
 # The Value of Advanced Traveler Information Systems for Route Choice
 
+## Contribution
+
+This paper develops an economic and simulation framework for valuing real-time route guidance when travelers care about both expected travel time and reliability. It shows that information is especially valuable near the onset of recurring congestion and can be substantially more valuable during non-recurring disruptions.
+
 ## Bibliographic Information
 
 - Row ID: `paper-2003-03`
